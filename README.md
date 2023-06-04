@@ -50,6 +50,7 @@ https://www.linkedin.com/in/ahmad-ghoniem/
 # link🔗
 
 ### Download ffmpeg and yt-dlp zipped
+https://mega.nz/file/0GMA0BYK#97knvxwbYYFz8IrFN60qyKObHfCp5RnLr-DbsPYcjf4
 
 ### yt-dlb github repo
 
