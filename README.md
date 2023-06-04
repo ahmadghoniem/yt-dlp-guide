@@ -8,6 +8,8 @@ https://www.linkedin.com/in/ahmad-ghoniem/
 
 1. Extract the Folder
 2. open CMD
+![How to open CMD](image link)
+
 3. run yt-dlp -U to update yt-dlb to the latest version (make sure it's a capital U and not lowercase u)
 4. use one of the following commands
 
