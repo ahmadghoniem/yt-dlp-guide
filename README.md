@@ -29,12 +29,12 @@
    `yt-dlp -S "res:720" -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_PLAYLIST_URL"`
 
 2. Download All playlist videos, converts them to Mp3 and save them into a folder with the playlist's title
-   `yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_PLAYLIST_URL" --ffmpeg-location "ffmpeg\bin"`
 
+   `yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_PLAYLIST_URL" --ffmpeg-location "ffmpeg\bin"`
 
 3. Download playlist videos starting from START to END and save them into a folder with the playlist's title
 
-  `yt-dlp -S "res:720" -I "START:END" -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_PLAYLIST_URL"`
+   `yt-dlp -S "res:720" -I "START:END" -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_PLAYLIST_URL"`
 
 4. Download certain videos from a playlist and save them into a folder with the playlist's title
 
