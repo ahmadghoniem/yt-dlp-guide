@@ -7,10 +7,9 @@ https://www.linkedin.com/in/ahmad-ghoniem/
 
 - Steps
 1. Extract the Folder
-2. open CMD
+2. open command prompt by typing CMD
 
 ![Untitled](https://github.com/ahmadghoniem/yt-dlp-guide/assets/60299751/d3eecb54-42b4-45a0-8330-e51b3438a542)
-
 
 3. run yt-dlp -U to update yt-dlb to the latest version (make sure it's a capital U and not lowercase u)
 4. use one of the following commands
