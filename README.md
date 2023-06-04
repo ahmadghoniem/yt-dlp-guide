@@ -15,7 +15,7 @@ https://www.linkedin.com/in/ahmad-ghoniem/
 
 1. Downloads video file
 
-   yt-dlp -S "res:720" -o "%(title)s.%(ext)s" "YOUTUBE_VIDEO_URL"
+   `yt-dlp -S "res:720" -o "%(title)s.%(ext)s" "YOUTUBE_VIDEO_URL"`
 
 2. Converts a single video to Mp3 format by extracting Audio from a video
 
