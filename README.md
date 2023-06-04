@@ -4,11 +4,11 @@ https://www.linkedin.com/in/ahmad-ghoniem/
 
 ## Learn How to effortlessly download, convert and split youtube videos using yt-dlp and ffmpeg software
 
-- Steps
+
 
 1. Extract the Folder
 2. open CMD
-![How to open CMD](image link)
+- Steps![Untitled](https://github.com/ahmadghoniem/yt-dlp-guide/assets/60299751/dadf798b-7049-4b77-a236-4277ed52155f)
 
 3. run yt-dlp -U to update yt-dlb to the latest version (make sure it's a capital U and not lowercase u)
 4. use one of the following commands
