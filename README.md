@@ -43,7 +43,7 @@ https://www.linkedin.com/in/ahmad-ghoniem/
 
    `yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 -I "START:END" -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_PLAYLIST_URL" --ffmpeg-location "ffmpeg\bin"`
 
-- FYI: you can replace %(playlist_title)s\%(title)s.%(ext)s with %(playlist_title)s\%(playlist_index)%s- (title)s.%(ext)s
+- FYI: you can replace `%(playlist_title)s\%(title)s.%(ext)s` with `%(playlist_title)s\%(playlist_index)%s- (title)s.%(ext)s`
   to save the video with it's index followed by it's name
   eg)
   1- video1
@@ -55,7 +55,7 @@ https://www.linkedin.com/in/ahmad-ghoniem/
 
    `yt-dlp -S "res:720" -o "chapter:%(title)s\%(section_number)s - %(section_title)s.%(ext)s" --split-chapters "YOUTUBE_VIDEO_URL" --ffmpeg-location "ffmpeg\bin"`
 
-- FYI:you can replace "chapter:%(title)s\%(section_number)s - %(section_title)s.%(ext)s" with "chapter:%(title)s\%(section_title)s.%(ext)s"
+- FYI:you can replace `"chapter:%(title)s\%(section_number)s - %(section_title)s.%(ext)s"` with `"chapter:%(title)s\%(section_title)s.%(ext)s"`
   to save the video with the chapter name only without the index
 
 # link🔗
