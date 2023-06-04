@@ -20,23 +20,34 @@
 
    `yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 -o "%(title)s.%(ext)s" "YOUTUBE_VIDEO_URL" --ffmpeg-location "ffmpeg\bin"`
 
+## For downloading Multiple videos at once you can save them into a playlist and use the playlist commands
+
 ## Playlist
 
-1. Download All playlist videos and saves them into a folder named with playlist's title
+1. Download All playlist videos and save them into a folder named with the playlist's title
 
    `yt-dlp -S "res:720" -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_PLAYLIST_URL"`
 
-2. Download playlist videos starting from `START:END` and saves them into a folder with playlist's title
-
-   `yt-dlp -S "res:720" -I "START:END" -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_PLAYLIST_URL"`
-
-3. Download All playlist videos and converts them to Mp3 and saves them into a folder with playlist's title
-
+2. Download All playlist videos, converts them to Mp3 and save them into a folder with the playlist's title
    `yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_PLAYLIST_URL" --ffmpeg-location "ffmpeg\bin"`
 
-4. Download playlist videos from `START:END` and converts them to Mp3 and saves them into a folder with playlist's title
+
+3. Download playlist videos starting from START to END and save them into a folder with the playlist's title
+
+  `yt-dlp -S "res:720" -I "START:END" -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_PLAYLIST_URL"`
+
+4. Download certain videos from a playlist and save them into a folder with the playlist's title
+
+   `yt-dlp -S "res:720" -I "2,5" -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_PLAYLIST_URL"`
+
+5. Download playlist videos from START:END, converts them to Mp3 and save them into a folder with the playlist's title
 
    `yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 -I "START:END" -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_PLAYLIST_URL" --ffmpeg-location "ffmpeg\bin"`
+
+6. Download certain videos from a playlist, them to Mp3 and save them into a folder with the playlist's title
+
+   `yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 "res:144" -I "2,5" -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_VIDEO_URL" --ffmpeg-location "ffmpeg\bin"`
+
 
 - FYI: you can replace `%(playlist_title)s\%(title)s.%(ext)s` with `%(playlist_title)s\%(playlist_index)%s- (title)s.%(ext)s`
   to save the video with it's index followed by it's name
