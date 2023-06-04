@@ -46,7 +46,7 @@
 
 6. Download certain videos from a playlist, them to Mp3 and save them into a folder with the playlist's title
 
-   `yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 "res:144" -I "2,5" -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_VIDEO_URL" --ffmpeg-location "ffmpeg\bin"`
+   `yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 "res:144" -I "2,5" -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_PLAYLIST_URL" --ffmpeg-location "ffmpeg\bin"`
 
 
 - FYI: you can replace `%(playlist_title)s\%(title)s.%(ext)s` with `%(playlist_title)s\%(playlist_index)%s- (title)s.%(ext)s`
