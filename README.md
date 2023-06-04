@@ -18,23 +18,29 @@ https://www.linkedin.com/in/ahmad-ghoniem/
 ## Single video
 
 1. Downloads video file
+
   ` yt-dlp -S "res:720" -o "%(title)s.%(ext)s" "YOUTUBE_VIDEO_URL"`
 
 2. Converts a single video to Mp3 format by extracting Audio from a video
+
    `yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 -o "%(title)s.%(ext)s" "YOUTUBE_VIDEO_URL" --ffmpeg-location "ffmpeg\bin"`
 
 ## Playlist
 
 1. Download All playlist videos and saves them into a folder named with playlist's title
+
    `yt-dlp -S "res:720" -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_PLAYLIST_URL"`
 
 2. Download playlist videos starting from START to END and saves them into a folder with playlist's title
+
    `yt-dlp -S "res:720" -I "START:END" -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_PLAYLIST_URL"`
 
 3. Download All playlist videos and converts them to Mp3 and saves them into a folder with playlist's title
+
    `yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_PLAYLIST_URL" --ffmpeg-location "ffmpeg\bin"`
 
 4. Download playlist videos from START:END and converts them to Mp3 and saves them into a folder with playlist's title
+
    `yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 -I "START:END" -o "%(playlist_title)s\%(title)s.%(ext)s" "YOUTUBE_PLAYLIST_URL" --ffmpeg-location "ffmpeg\bin"`
 
 - FYI: you can replace %(playlist_title)s\%(title)s.%(ext)s with %(playlist_title)s\%(playlist_index)%s- (title)s.%(ext)s
@@ -46,6 +52,7 @@ https://www.linkedin.com/in/ahmad-ghoniem/
 ## Split by Chapters
 
 1. Downloads video file, split it by chapters and saves them to a folder with the video's title
+
    `yt-dlp -S "res:720" -o "chapter:%(title)s\%(section_number)s - %(section_title)s.%(ext)s" --split-chapters "YOUTUBE_VIDEO_URL" --ffmpeg-location "ffmpeg\bin"`
 
 - FYI:you can replace "chapter:%(title)s\%(section_number)s - %(section_title)s.%(ext)s" with "chapter:%(title)s\%(section_title)s.%(ext)s"
