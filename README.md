@@ -58,7 +58,7 @@
 
    `yt-dlp -S "res:720" -o "chapter:%(title)s\%(section_number)s - %(section_title)s.%(ext)s" --split-chapters "YOUTUBE_VIDEO_URL" --ffmpeg-location "ffmpeg\bin"`
 
-- FYI:you can replace `"chapter:%(title)s\%(section_number)s - %(section_title)s.%(ext)s"` with `"chapter:%(title)s\%(section_title)s.%(ext)s"`
+- FYI: you can replace `"chapter:%(title)s\%(section_number)s - %(section_title)s.%(ext)s"` with `"chapter:%(title)s\%(section_title)s.%(ext)s"`
   to save the video with the chapter name only without the index
 
 # link🔗
