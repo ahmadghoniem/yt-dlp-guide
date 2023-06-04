@@ -7,9 +7,8 @@
 
 ![Untitled](https://github.com/ahmadghoniem/yt-dlp-guide/assets/60299751/5bbbe872-4627-4bc9-8a30-5c5e713b57f1)
 
-
 3. run yt-dlp -U to update yt-dlb to the latest version (make sure it's a capital U and not lowercase u)
-4. use one of the following commands
+4. use one of the commands below 
 
 ## Single video
 
