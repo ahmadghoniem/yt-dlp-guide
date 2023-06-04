@@ -1,8 +1,4 @@
-## This guide was written by Ahmad ghoniem
-
-https://www.linkedin.com/in/ahmad-ghoniem/
-
-## Learn How to effortlessly download, convert and split youtube videos using yt-dlp and ffmpeg software
+### Learn How to effortlessly download, convert and split youtube videos using yt-dlp and ffmpeg software
 
 
 - Steps
