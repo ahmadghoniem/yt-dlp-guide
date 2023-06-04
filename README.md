@@ -45,9 +45,6 @@ https://www.linkedin.com/in/ahmad-ghoniem/
 
 - FYI: you can replace `%(playlist_title)s\%(title)s.%(ext)s` with `%(playlist_title)s\%(playlist_index)%s- (title)s.%(ext)s`
   to save the video with it's index followed by it's name
-  eg)
-  1- video1
-  2- video2
 
 ## Split by Chapters
 
